@@ -1,0 +1,92 @@
+\documentclass[11pt]{article}
+
+% Use wide margins, but not quite so wide as fullpage.sty
+\marginparwidth 0.5in
+\oddsidemargin 0.25in
+\evensidemargin 0.25in
+\marginparsep 0.25in
+\topmargin 0.25in
+\textwidth 6in \textheight 8 in
+% That's about enough definitions
+
+% multirow allows you to combine rows in columns
+\usepackage{multirow}
+% tabularx allows manual tweaking of column width
+\usepackage{tabularx}
+% longtable does better format for tables that span pages
+\usepackage{longtable}
+
+\begin{document}
+% this is an alternate method of creating a title
+%\hfill\vbox{\hbox{Gius, Mark}
+%       \hbox{Cpe 456, Section 01}
+%       \hbox{Lab 1}
+%       \hbox{\today}}\par
+%
+%\bigskip
+%\centerline{\Large\bf Lab 1: Security Audit}\par
+%\bigskip
+\author{Luiz Henrique Coelho Sena}
+\title{A model checker to OpenCl}
+\maketitle
+
+\section{Summary}
+
+Ensuring that a reliable tool can check the confidence of graphics applications with stability will help developers to design systems securely. The present research aim to extend a tool that checks the properties of CUDA programs to check properties of applications developed in OpenCL.\linebreak
+Due the increase of the demand of graphics processing and the degree of complexity a method to check the systems properties has been necessary. Making computers help us more can be a task that requires a high degree of confidence. A good solution to guarantee the high degree of confidence in developing complex systems is the method model checking.\linebreak
+The present research offers an extension to the tool ESBMC-GPU. This tool is a model checker for graphics applications developed in CUDA. The purpose is making it verify ordinary applications in the framework OpenCL and integrate it to the verifier ESBMC-GPU which already verify applications written in CUDA.\linebreak
+Model checking is the method used in this research. The expected result is make the model check verifier works with secure and obeying all the properties of a OpenCL verifier. Testing a lot of common programs developed in OpenCL and checking the results will ensure the stability and the confidence of the tool.
+The ESBMC-GPU gets a huge potential for developers and it need to cover as many languages as it can. For future researches a lot of extensions is been expected like an extension for OpenGL or upgrades in CUDA operational models or changes in the model checker ESBMC and so other.
+
+
+\section{Activities}
+
+\begin{itemize}
+	\item Initial date: 17/03/2017 -- Final date: 17/04/2017
+	\begin{enumerate}
+		\item Research proposal for PIBIC {\it (done)}
+		\item Create GitHub account {\it (done)}
+		\item Create slack accoount {\it (done)}
+        \item Create trello account {\it (done)}
+        \item Study about github {\it (done)}
+	\end{enumerate}
+
+	\item Initial date: 18/04/2017 -- Final date: 17/05/2017
+	\begin{enumerate}
+		\item Write the kanban in trello {\it (done)}
+		\item Make a lay summary {\it (done)}
+	\end{enumerate}
+	\item Initial date: 18/05/2017 -- Final date: 05/06/2017
+    \begin{enumerate}
+    	\item Count the number of functions that ESBMC-GPU support of CUDA's APIs{\it (done)}
+		\item Count the number of missing functions that ESBMC-GPU doesn't support of CUDA's APIs {\it (done)}
+        \item Calculate the percentage that ESBMC-GPU support of each API {\it (done)}
+      \end{enumerate}
+    \item Initial Date: 05/06/2017 -- Final Date: 12/06/2017
+	\begin{enumerate}
+		\item Lay Summary corrections {\it (failed)}
+		\item Generate the graphic points that show the comparative time and tests of ESBMC-GPU and others{\it (done)}
+        \item Create a repport in latex{\it (done)}
+        \item Decide between OpenCl and Cuda for the present research{\it (to do)}
+	\end{enumerate}
+		\item Initial Date: 12/06/2017 -- Final Date: 18/06/2017
+			\begin{enumerate}
+				\item ESBMC-GPU performance comparative graphics corrections {\it (done)}
+				\item Decide between OpenCl and Cuda for the present research{\it (done)}
+				\item Lay Summary corrections {\it (doing)}
+			\end{enumerate}
+			\item Initial Date: 18/06/2017 -- Final Date: 25/06/2017
+			\begin{enumerate}
+				\item Decided between OpenCl and CUDA for the present research: CUDA {\it (done)}
+				\item Lay Summary corrections {\it (failed)}
+			\end {enumerate}
+			\item Initial Date: 25/06/2017 -- Final Date: 02/07/2017
+			\begin{enumerate}
+				\item Study the current UML diagram of CUDA OM {\it (to do)}
+				\item Study the current regression of CUDA OM {\it (to do)}
+				\item Lay Summary corrections {\it (to do)}
+			\end {enumerate}
+
+\end{itemize}
+
+\end{document}
